@@ -19,9 +19,9 @@ app = Flask(__name__)
 app = Flask(__name__)
 
 
-# This route gets the base page, its' like the 1st page that shows up 
+# This route gets the base page, its' like the 1st page that shows up #changed from home to index
 @app.route('/', methods=['GET'])
-def home():
+def index():
     return render_template('base2.html')
 
 
