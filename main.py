@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
-import docx
-from docx import Document
-from docx2pdf import convert
+#import docx
+#from docx import Document
+#from docx2pdf import convert
 import os
 import openai
 
